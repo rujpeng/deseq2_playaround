@@ -7,12 +7,12 @@ ebg = exonsBy(txdb,by="gene") ## this is to group exons by gene
 ## load read counts from bam files
 ## here I compare only control and knockout
 library("Rsamtools")
-bam_col_1 = BamFile("Col_1.bam")
-bam_col_2 = BamFile("Col_2.bam")
-bam_col_3 = BamFile("Col_3.bam")
-bam_ox_1  = BamFile("OX_1.bam")
-bam_ox_2  = BamFile("OX_2.bam")
-bam_ox_3  = BamFile("OX_3.bam")
+bam_col_1 = BamFile("Col_1.bam") ## control
+bam_col_2 = BamFile("Col_2.bam") ## control
+bam_col_3 = BamFile("Col_3.bam") ## control
+bam_ox_1  = BamFile("OX_1.bam") ## knockout
+bam_ox_2  = BamFile("OX_2.bam") ## knockout
+bam_ox_3  = BamFile("OX_3.bam") ## knockout
 bamfiles  = BamFileList (bam_col_1,bam_col_2,bam_col_3,bam_ox_1,bam_ox_2,bam_ox_3)
 
 ## experimental design
