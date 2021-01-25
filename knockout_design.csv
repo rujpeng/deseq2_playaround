@@ -1,0 +1,7 @@
+batch,condition
+Col_1.bam,control
+Col_2.bam,control
+Col_3.bam,control
+OX_1.bam,knockout
+OX_2.bam,knockout
+OX_3.bam,knockout
